@@ -6,8 +6,8 @@ build:
 	cd issue-tracker-wasm && wasm-pack build --target nodejs --out-dir pkg-node
 	cd frontend && npm install
 
-# Run all tests (Rust unit tests + JavaScript/WASM tests)
-test: test-rust test-js
+# Run all tests — always rebuild WASM first to avoid testing stale binaries
+test: build test-rust test-js
 
 test-rust:
 	cd issue-tracker-wasm && cargo test
