@@ -1,0 +1,11 @@
+{
+  "name": "issue-tracker-wasm",
+  "version": "0.1.0",
+  "files": [
+    "issue_tracker_wasm_bg.wasm",
+    "issue_tracker_wasm.js",
+    "issue_tracker_wasm.d.ts"
+  ],
+  "main": "issue_tracker_wasm.js",
+  "types": "issue_tracker_wasm.d.ts"
+}

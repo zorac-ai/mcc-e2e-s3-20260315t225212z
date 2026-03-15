@@ -1,3 +1,12 @@
 __pycache__/
 *.pyc
 issues.json
+
+# Rust build artifacts
+issue-tracker-wasm/target/
+
+# Node.js
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/

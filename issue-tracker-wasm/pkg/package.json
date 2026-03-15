@@ -1,0 +1,17 @@
+{
+  "name": "issue-tracker-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "issue_tracker_wasm_bg.wasm",
+    "issue_tracker_wasm.js",
+    "issue_tracker_wasm_bg.js",
+    "issue_tracker_wasm.d.ts"
+  ],
+  "main": "issue_tracker_wasm.js",
+  "types": "issue_tracker_wasm.d.ts",
+  "sideEffects": [
+    "./issue_tracker_wasm.js",
+    "./snippets/*"
+  ]
+}
